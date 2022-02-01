@@ -8,7 +8,7 @@ Changes made by the user are saved to localStorage.<br/>
 The user can switch between light & dark mode.<br/>
 The user can clear localStorage.
 
-Deployed it using vercel [here](https://example.vercel.app/).
+Deployed it using Netlify [here](https://example.vercel.app/).
 
 Please leave a ⭐ as motivation if you liked the implementation 😄
 
