@@ -1,4 +1,4 @@
-# Business -light & dark mode -
+# Business - light & dark mode -
 A simple Website made using Javascript ⚡
 
 The website represents information about work.<br/>
