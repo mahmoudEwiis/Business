@@ -14,8 +14,8 @@ Please leave a ⭐ as motivation if you liked the implementation 😄
 
 ## Demo
 ![Demo](/public/assets/demo.gif)
-<br />
-<br />
+<br/>
+<br/>
 
 
 ## Built with

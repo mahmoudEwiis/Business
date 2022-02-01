@@ -261,7 +261,7 @@
 }
 
 .Dark__mode__btn.active {
-    background-color: #161625;
+    background-color: rgb(32, 129, 226);
 }
 
 .Dark__mode__btn.active:before {
