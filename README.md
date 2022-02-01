@@ -12,6 +12,10 @@ Deployed it using vercel [here](https://example.vercel.app/).
 
 Please leave a ⭐ as motivation if you liked the implementation 😄
 
+## Demo
+![Demo](/public/assets/demo.gif)
+<br />
+<br />
 
 
 ## Built with
