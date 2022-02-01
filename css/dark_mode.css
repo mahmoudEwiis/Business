@@ -1,0 +1,149 @@
+.dark-theme{
+    background-color: #202225;
+}
+.dark-theme #general_controller_container .controller_icon {
+    background-color:rgb(229, 232, 235);
+}
+
+.dark-theme #general_controller_container .controller_icon i {
+
+    color: rgb(48 51 57);
+}
+.dark-theme .header-area .header-bar-wrapper {
+    background-color: rgb(4 17 29);
+}
+.dark-theme .sec-heading .sec__meta{
+    color: rgb(138, 147, 155);
+}
+.dark-theme .sec-heading .sec__title {
+    color: rgb(229, 232, 235);
+}
+.dark-theme .services-items-grid .service-items{
+    background-color:rgb(48 51 57);
+}
+.dark-theme .services-items-grid .service-items .service-items-iconbox:after {
+    background-color:rgb(48 51 57);
+}
+.dark-theme .services-items-grid .service-items .service-items-title{
+    color: rgb(138, 147, 155);
+}
+.dark-theme .services-items-grid .service-items .service-items-num{
+    color: rgb(138, 147, 155);
+}
+/* .services-items-grid .service-items .service-items-description {
+    color: var(--paragraph_color);
+} */
+.dark-theme .about-st1-wrapper .about-right .video-button-box {
+    background-color: rgb(32, 129, 226);
+}
+.dark-theme .about-st1-wrapper .about-right .video-button-box a .icon:before {
+    background-color: rgb(32, 129, 226);
+}
+.dark-theme .theme-button {
+    background-color: rgb(32, 129, 226);
+}
+.dark-theme .simple-button {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .about-st1-wrapper .about-left .about-left-title {
+    color: rgb(229, 232, 235);
+}
+.dark-theme .divider .divider__dot {
+    background-color: rgb(32, 129, 226);
+}
+.dark-theme .history-area .history-details-box {
+    background-color: rgb(48 51 57);
+}
+.dark-theme .history-area .history-details-box .history-details-title {
+    color: rgb(229, 232, 235);
+    
+}
+.dark-theme .about-wrapper .about-grid-wrap .about-left a {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .about-wrapper .about-iconbox-grid .about-iconbox {
+    background: linear-gradient(45deg, var(--white_color) 88%, #202225 30%);
+}
+.dark-theme .progressbar-wrap .progressbar-item h3{
+    color: rgb(229, 232, 235);
+}
+.dark-theme .form-white-bg .ctaform-wrapper {
+    background: #202225;
+}
+.dark-theme .ctaform-wrapper .ctaform-grid .ctaform-contact-info-grid .item {
+    box-shadow: 0 0 40px rgb(82 85 90 / 40%);
+}
+.dark-theme .ctaform-wrapper .ctaform-grid .ctaform-contact-info-grid .item h2 {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .footer-wrapper {
+    background: rgb(4 17 29);
+}
+.dark-theme .footer-wrapper:before {
+    background: #202225;
+}
+.dark-theme .footer-wrapper .footer-widgets-grid .footer-left .footer-address li a .icon ,
+.dark-theme .footer-wrapper .footer-widgets-grid .footer-left .social ul li a{
+    background-color:rgb(32, 129, 226 )
+}
+.dark-theme .footer-wrapper .footer-widgets-grid .footer-left .footer-address li a .icon:before ,
+.dark-theme .footer-wrapper .footer-widgets-grid .footer-left .social ul li a:before{
+    background-color:rgb(4 17 29);
+}
+.dark-theme .tabs-wrapper {
+    background: #2022251e;
+}
+.dark-theme .breadcrumb-wrapper:before {
+    background-color: #2081e2;
+}
+.dark-theme .service-slider-wrapper .service-slider-item {
+    border-color: rgb(229, 232, 235);
+}
+.dark-theme .service-slider-wrapper .service-slider-item .service-slider-title {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .service-slider-wrapper .owl-dots>* , 
+.dark-theme .testimonial-wrapper .owl-dots>* {
+    border-color: rgb(32, 129, 226);
+}
+.dark-theme .service-slider-wrapper{
+    background-color: #202225;
+}
+.dark-theme .service-video-wrapper:before {
+
+    background: #202225;
+}
+.dark-theme .service-video-wrapper .service-content-box .service-video-button .video-btn {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .service-video-wrapper .service-content-box .service-video-button .video-btn .icon {
+    background-color: rgb(32, 129, 226);
+}
+.dark-theme .team-wrapper .team-grid .team .team-content {
+    background-color: rgb(48 51 57);
+    border-color: transparent;
+}
+.dark-theme .team-wrapper .team-grid .team .name {
+    color: rgb(229, 232, 235);
+}
+.dark-theme .testimonial-wrapper .testimonial-items .testimonial-bottom-flex .name {
+    color: rgb(32, 129, 226);
+}
+.dark-theme .testimonial-wrapper .testimonial-items .testimonial-bottom-flex .city {
+    color: rgb(32, 129, 226);
+    opacity: .7;
+}
+.dark-theme .sidebar-social-profile ul li a {
+    background-color: rgb(229, 232, 235);
+    color: #202225;
+}
+.dark-theme .sidebar-social-profile ul li a:before {
+    background-color: #202225;
+}
+.dark-theme .contact-form-wrapper .contact-form-grid .right form .form-grid label ,
+.dark-theme .contact-form-wrapper .contact-form-grid .right form .form-textarea label {
+    color: rgb(229, 232, 235);
+}
+.dark-theme .contact-form-subscribe-wrap h1 {
+    color: rgb(32, 129, 226);
+}
