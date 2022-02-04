@@ -21,6 +21,12 @@ if (localStorage.getItem('theme') != "") {
 }
 
 /* ===================================
+     initalize AOS
+====================================== */
+
+AOS.init();
+
+/* ===================================
      tabs_data
 ====================================== */
 
@@ -286,10 +292,8 @@ function changeColor(newColor) {
 /* ===================================
      Event of the Change_color.
 ====================================== */
-$('.controller_item .Color_Scheme_container span').click(function () {
-    $(this).addClass("active");
-    
-    $(this).siblings().removeClass("active");
+$('.Color_Scheme_container span').click(function () {
+
  
     let newColor = $(this).css("background-color");
 

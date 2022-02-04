@@ -228,6 +228,7 @@
  --------------------------------------------- */
 .dark__mode {
     position: relative;
+    
 }
 
 .Dark__title {
@@ -250,7 +251,7 @@
 
 .Dark__mode__btn:before {
     background-color: #fff;
-    bottom: 4px;
+    bottom: 6px;
     content: "";
     height: 18px;
     left: 4px;
@@ -261,7 +262,7 @@
 }
 
 .Dark__mode__btn.active {
-    background-color: rgb(32, 129, 226);
+    background-color: rgb(32, 129, 226) ;
 }
 
 .Dark__mode__btn.active:before {
@@ -274,7 +275,7 @@
 
 .side-nav-container .Dark__title {
     color: var(--white_color);
-    margin-left: 10px;
+    padding: 0px 20px 5px 20px;
 }
 
 .side-nav-container .Dark__mode__btn {
@@ -283,9 +284,30 @@
 }
 
 .side-nav-container .moon-icon g {
-    fill: #fff;
+    fill: var(--white_color);
 }
+.side-nav-container .Color_Scheme_container {
+    padding: 0px 20px 0px 20px;
 
+}
+.side-nav-container .Color_Scheme_container h3{
+    color: var(--white_color);
+}
+.side-nav-container .Color_Scheme_container span{
+    display: inline-block;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.side-nav-container .Clear_local_storage{
+    color: var(--white_color);
+    padding: 0px 20px 14px 20px;
+}
+.side-nav-container .Clear_local_storage a{
+    color: var(--primary_color);
+}
 /* ---------------------------------------------
 		CONTACT__MAP
  --------------------------------------------- */

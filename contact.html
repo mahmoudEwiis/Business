@@ -8,6 +8,7 @@
     <link rel="icon" href="images/chart__logo.png">
     <title>Business</title>
     <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -207,6 +208,7 @@
             </div>
             <div class="dark__mode">
                 <h3 class="Dark__title">
+                    Night Mode
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         aria-hidden="true" focusable="false" width="1em" height="1em"
                         style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
@@ -217,14 +219,24 @@
                             <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79z"></path>
                         </g>
                     </svg>
-                    Night Mode
                 </h3>
                 <div class="Dark__mode__btn"></div>
             </div>
-
+            <div class="Color_Scheme_container">
+                <h3>Color Scheme</h3>
+                <span style="background-color: #ffc476;"></span>
+                <span style="background-color: #ff206e;"></span>
+                <span style="background-color: #b89df8;"></span>
+                <span style="background-color: #24bca4;"></span>
+                <span style="background-color: #c86f98;"></span>
+            </div>
+            <div class="Clear_local_storage">
+                <h3>Clear local storage</h3>
+                <a class="clear-cach" href="#">Clear Cache </a>
+            </div>
         </div>
     </header>
-    <!--  END NAVBAR  -->
+    <!-- Page Title Section -->
     <section class="breadcrumb-wrapper text-center">
         <div class="container">
             <div class="breadcrumb-content">
@@ -236,10 +248,11 @@
             </div>
         </div>
     </section>
+    <!-- Contact Form Section -->
     <section class="contact-form-wrapper">
         <div class="container">
             <div class="contact-form-grid d-grid">
-                <div class="left">
+                <div class="left" data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">
                     <div class="sec-heading">
                         <p class="sec__meta">Get In Touch With Us</p>
                         <h2 class="sec__title">Do You Have Any Question? Write Us a Message.</h2>
@@ -311,38 +324,39 @@
                 <div class="right">
                     <form>
                         <div class="form-grid d-grid">
-                            <div class="left">
+                            <div class="left" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
                                 <label for="name">
                                     Your Name <sup>*</sup>
                                 </label>
                                 <input type="text" id="name" placeholder="Full Name" required>
                             </div>
-                            <div class="right">
+                            <div class="right" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">
                                 <label for="email">
                                     Your Email <sup>*</sup>
                                 </label>
                                 <input type="email" id="email" placeholder="Email Address" required>
                             </div>
-                            <div class="left">
+                            <div class="left" data-aos="zoom-out" data-aos-delay="300" data-aos-duration="1000">
                                 <label for="number">
                                     Your Number <sup>*</sup>
                                 </label>
                                 <input type="text" id="number" placeholder="Your Phone" required>
                             </div>
-                            <div class="right">
+                            <div class="right" data-aos="zoom-out" data-aos-delay="400" data-aos-duration="1000">
                                 <label for="subject">
                                     Subject <sup>*</sup>
                                 </label>
                                 <input type="text" id="subject" placeholder="Subject" required>
                             </div>
                         </div>
-                        <div class="form-textarea">
+                        <div class="form-textarea" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
                             <label for="message">
                                 Your Message <sup>*</sup>
                             </label>
                             <textarea id="message" placeholder="Write Message"></textarea>
                         </div>
-                        <button type="submit" class="theme-button">Send Us Message
+                        <button type="submit" class="theme-button" data-aos="zoom-out" data-aos-delay="600" data-aos-duration="1000">
+                            Send Us Message
                             <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                                 stroke-linecap="round" stroke-linejoin="round" class="icon" height="1em" width="1em"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -353,7 +367,7 @@
                 </div>
             </div>
             <div class="contact-form-map-grid d-grid">
-                <div class="left">
+                <div class="left" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">
                     <div style="height: 764px;">
                         <div class="mapouter">
                             <div class="gmap_canvas">
@@ -366,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-down-left" data-aos-delay="200" data-aos-duration="1000">
                     <aside class="contact-sidebar">
                         <h1>Our Office</h1><img src="images/img1.jpeg" alt="Contact Sidebar">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa dolorum
@@ -433,7 +447,7 @@
                     </aside>
                 </div>
             </div>
-            <div class="contact-form-subscribe-wrap text-center">
+            <div class="contact-form-subscribe-wrap text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <h1>Subscribe Newsletter to Get Latest Discount.</h1>
                 <p>
                     Be the first to hear about our latest products &amp; offers. As a welcome gift, we’ll email you a
@@ -456,13 +470,16 @@
             </div>
         </div>
     </section>
+
+    <!-- Back To Top button -->
     <div id="back-to-top">
         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
             stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
             <polyline points="18 15 12 9 6 15"></polyline>
         </svg>
     </div>
-    <!--general controller-->
+
+    <!--General controller-->
     <div id="general_controller_container" style="left: -178px;">
         <div class="controller_item">
             <div class="dark__mode">
@@ -498,19 +515,19 @@
             <i class="fas fa-cog"></i>
         </div>
     </div>
-    <!--End__of__general controller-->
 
-    <!--preloader-->
+    <!--Preloader-->
     <div id="preloader">
         <i>.</i>
         <i>.</i>
         <i>.</i>
     </div>
 
+    <!--footer-wrapper-->
     <footer class="footer-wrapper">
         <div class="container">
             <div class="footer-widgets-grid">
-                <div class="footer-widget footer-left">
+                <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="footer-widget footer-left">
                     <a class="logo" href="#">
                         <img src="images/chart__logo.png" alt="Logo">
                         Business
@@ -618,7 +635,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-widget footer-help-links">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="footer-widget footer-help-links">
                     <h2>Need Help?</h2>
                     <ul class="help-links">
                         <li><a href="#">Community</a></li>
@@ -630,7 +647,7 @@
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-widget footer-working-hours">
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="footer-widget footer-working-hours">
                     <h2>Working Hours.</h2>
                     <ul class="working-hours">
                         <li><strong>Monday:</strong> 9am-4pm</li>
@@ -641,7 +658,7 @@
                         <li class="off-day">Sat-Sun: <strong>Off</strong></li>
                     </ul>
                 </div>
-                <div class="footer-widget footer-get-in-touch">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="footer-widget footer-get-in-touch">
                     <h2>Get In Touch.</h2>
                     <form class="get-in-touch">
                         <input type="text" name="text" placeholder="Name">
@@ -672,7 +689,9 @@
             </div>
         </div>
     </footer>
+
     <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/script.js"></script>
 </body>
