@@ -11,9 +11,6 @@ The user can clear localStorage.
 Deployed it using Netlify [here](https://business-97.netlify.app/).
 
 Please leave a ⭐ as motivation if you liked the implementation 😄
-
-## Demo
-![Demo](/public/assets/demo.gif)
 <br/>
 <br/>
 
